@@ -1,2 +1,2 @@
-total 20
----x--x--x 1 root root  0 Mar  8 06:53 3-listfiles
+#!/bin/bash
+ls -l
