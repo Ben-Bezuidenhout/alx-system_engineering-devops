@@ -11,3 +11,5 @@ for file in "$cwd"/*.html; do
     echo "Skipped $filename, already exists in $parent_dir and is up to date"
   fi
 done
+#!/bin/bash
+find . -name "*.html" -type f -exec cp -n -t ../ {} +
