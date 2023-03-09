@@ -1,2 +1,2 @@
 #!/bin/bash
-id -nG "$USER" | tr ' ' '\n'
+getent group $(id -Gn) | cut -d: -f1
