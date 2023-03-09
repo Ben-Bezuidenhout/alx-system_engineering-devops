@@ -1,4 +1,2 @@
 #!/bin/bash
-groups
-#!/bin/bash
-#!/bin/bash
+getent group $(id -Gn) | cut -d: -f1
