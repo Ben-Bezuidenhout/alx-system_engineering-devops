@@ -1,0 +1,6 @@
+#!/bin/bash
+
+# Use head to get the first 3 lines of the file
+head -n 3 iacta | \
+# Use tail to get the third line only
+tail -n 1
