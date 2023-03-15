@@ -1,2 +1,11 @@
 #!/bin/bash
-echo head -n 3 iacta \ cat tail -n 3 iacta
+
+filename="iacta"
+
+if [ -e "$filename" ]; then
+    # read the third line of the file and store it in a variable
+    line=$(head -n 3 "$filename" | tail -n 1)
+    echo "The third line of the file is: $line"
+else
+    echo "File does not exist."
+fi
