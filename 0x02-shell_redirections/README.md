@@ -8,3 +8,4 @@ Describe each task:
 7. failed to Write a script that displays the third line of the file iacta.
 8. failed to Write a shell script that creates a file named exactly \*\\'"Best School"\'\\*$\?\*\*\*\*\*:) containing the text Best School ending by a new line.
 9. SUCCESSFULLY Wrtte a script that writes into the file ls_cwd_content
+10. failed  to Write a script that duplicates the last line of the file iacta
