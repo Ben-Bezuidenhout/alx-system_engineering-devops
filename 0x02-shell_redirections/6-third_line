@@ -1,6 +1,2 @@
 #!/bin/bash
-filename="iacta"
-[ -e "$filename" ];
-    line=$(head -n 3 "$filename" | tail -n 1)
-    echo "The third line of the file is: $line"
-    echo "File does not exist."
+echo line=$(head -n 3 "$iacta" | tail -n 1)
