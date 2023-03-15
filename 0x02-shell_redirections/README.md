@@ -4,3 +4,4 @@ Describe each task:
 3. SUCCESSFULLY wrote script to display the content of the /etc/passwd file
 4. tried to write script still trying
 5. SUCCESSFULLY wrote script to print last 10 lines of /etc/passwd
+6. SUCCESSFULLY wrote script to print first 10 lines of /etc/passwd
