@@ -1,8 +1,6 @@
 #!/bin/bash
 filename="iacta"
-if [ -e "$filename" ]; then
+[ -e "$filename" ];
     line=$(head -n 3 "$filename" | tail -n 1)
     echo "The third line of the file is: $line"
-else
     echo "File does not exist."
-fi
