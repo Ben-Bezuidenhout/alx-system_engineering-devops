@@ -1,2 +1,2 @@
 #!/bin/bash
-set | grep -E '^[[:alpha:]_]+[[:alnum:]_]*=' && declare -F
+set  grep -E '^[[:alpha:]_]+='  sort  declare -F
