@@ -1,14 +1,4 @@
 #!/bin/bash
 count=0
-count_directories() {
-    for file in "$1"/*; do
-        if [ -d "$file" ]; then
-            if [[ $file != "." && $file != ".." ]]; then
-                ((count++))
-                count_directories "$file"
-            fi
-        fi
-    done
-}
 count_directories "."
 echo "The number of directories (including sub-directories) is: $count"
